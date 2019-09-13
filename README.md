@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/aschuch/QRCode.svg)](https://travis-ci.org/aschuch/QRCode)
 ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
-![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg)
 
 A QRCode generator written in Swift.
 
@@ -52,7 +52,7 @@ qrCode.backgroundColor = CIColor(rgba: "000")
 qrCode.image // UIImage (green QRCode color and black background)
 ```
 
-> **Note**: The above examples make use of the `CIColor` extension that ships with this project to create colors based on HEX strings. 
+> **Note**: The above examples make use of the `CIColor` extension that ships with this project to create colors based on HEX strings.
 
 ### UIImageView extension
 
@@ -76,6 +76,7 @@ Current Swift compatibility breakdown:
 
 | Swift Version | Framework Version |
 | ------------- | ----------------- |
+| 5.0	        | 3.x          		|
 | 3.0	        | 2.x          		|
 | 2.3	        | 1.x          		|
 | 2.2           | 0.x          		|
